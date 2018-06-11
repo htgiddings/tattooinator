@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{CB84AEA6-70C8-4EC6-B487-4EAA5525B17C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/Resources.resx">
+    <Files>
+      <File FileName="Helpers.cs" Line="6" Column="14" />
+      <File FileName="Program.cs" Line="18" Column="50" />
+      <File FileName="TattForm.cs" Line="22" Column="26" />
+      <File FileName="Properties/Resources.resx" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Tattooinator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

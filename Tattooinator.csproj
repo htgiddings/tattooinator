@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB84AEA6-70C8-4EC6-B487-4EAA5525B17C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tattooinator</RootNamespace>
+    <AssemblyName>Tattooinator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\cgm\Documents\SoftwarePublishTattooinator\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7B840C81784B47D8B08EA70E9518864365562245</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Tattooinator_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDSPanel, Version=1311.6.2239.3844, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DDSpanel\bin\Debug\DDSPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.CASPartResource">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.CASPartResource.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.GenericRCOLResource">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.GenericRCOLResource.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.Interfaces">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.NameMapResource">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.NameMapResource.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.Package">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.RCOLChunks">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.RCOLChunks.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.Settings">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.TxtcResource">
+      <HintPath>F:\Sims3Workspace\s3pi2010\s3pi.TxtcResource.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Custom">
+      <HintPath>F:\Sims3Workspace\s3pi2010\System.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XmodsFNV">
+      <HintPath>..\XmodsFNV\bin\Release\XmodsFNV.dll</HintPath>
+    </Reference>
+    <Reference Include="XmodsImageFileHandler, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\XmodsImageFileHandler\bin\Debug\XmodsImageFileHandler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PurifyOptions_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurifyOptions_form.Designer.cs">
+      <DependentUpon>PurifyOptions_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SourceImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceImageForm.Designer.cs">
+      <DependentUpon>SourceImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers.cs" />
+    <Compile Include="TattForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TattForm.Designer.cs">
+      <DependentUpon>TattForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThumbnailView_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThumbnailView_form.Designer.cs">
+      <DependentUpon>ThumbnailView_form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PurifyOptions_form.resx">
+      <DependentUpon>PurifyOptions_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TattForm.resx">
+      <DependentUpon>TattForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceImageForm.resx">
+      <DependentUpon>SourceImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ThumbnailView_form.resx">
+      <DependentUpon>ThumbnailView_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Tattooinator_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

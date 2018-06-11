@@ -1,0 +1,16 @@
+I'd be happy to share my source code with you for this or any other tool! However, there's problems with this particular one. I wrote Tattooinator ages ago in Fortran using a platform that gives Windows UI support, and I don't have that code on my current computer. I'm pretty sure I have it backed up somewhere, and I'll look for it if you think it would be helpful. 
+
+I did rewrite Tattooinator a couple of years ago in C#, stopped for reasons I don't remember, got distracted, and never released it. It works, though, and I really should do a little final testing and release it since the old one probably doesn't run so well on newer versions of Windows. 
+
+Anyway, what I'd like to do is give you that code - it would probably be much more useful for you if you use C/C++. However (again) for package reading/writing I use s3pi. I don't know if you're familiar with that, but it's the library used to build s3pe and s3oc. It's pretty big and intimidating but you could just look for the package handling parts in particular. I also started with s3pi for DDS image handling but modified those classes. That may be the best place to start - just write something that can open, read, and write a package and read, display, and save a DDS image. (I assume the Mac platform has built-in image support like Windows .NET does.)
+
+Here's where you can download the s3pi source: https://sourceforge.net/projects/s3...s/14-0222-1909/
+
+And here's all the project files for Tattooinator, including the tool itself and the supporting image handling stuff: 
+https://sites.google.com/site/cmarn...redirects=0&d=1
+https://sites.google.com/site/cmarn...redirects=0&d=1
+https://sites.google.com/site/cmarn...redirects=0&d=1
+
+Let me know if anything's missing or you have problems I can help with!
+
+-Cmar
