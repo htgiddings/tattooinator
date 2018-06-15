@@ -1,0 +1,8 @@
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.csprojResolveAssemblyReference.cache
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.PurifyOptions_form.resources
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.TattForm.resources
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.SourceImage_Form.resources
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.Properties.Resources.resources
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.ThumbnailView_form.resources
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.csproj.GenerateResource.cache
+/Users/henrygiddings/Development/sims3/Tattooinator/obj/x86/Debug/Tattooinator.csproj.CoreCompileInputs.cache
