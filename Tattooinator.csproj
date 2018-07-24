@@ -84,35 +84,35 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\XmodsImageFileHandler\bin\Debug\XmodsImageFileHandler.dll</HintPath>
     </Reference>
-    <Reference Include="s3pi.CASPartResource">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.CASPartResource.dll</HintPath>
+    <Reference Include="DDSPanel">
+      <HintPath>lib\s3pi\DDSPanel.dll</HintPath>
     </Reference>
-    <Reference Include="s3pi.GenericRCOLResource">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.GenericRCOLResource.dll</HintPath>
+    <Reference Include="s3pi.CASPartResource">
+      <HintPath>lib\s3pi\s3pi.CASPartResource.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.Interfaces">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.Interfaces.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="s3pi.GenericRCOLResource">
+      <HintPath>lib\s3pi\s3pi.GenericRCOLResource.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.NameMapResource">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.NameMapResource.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.NameMapResource.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.Package">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.Package.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.Package.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.RCOLChunks">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.RCOLChunks.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.RCOLChunks.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.Settings">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.Settings.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.Settings.dll</HintPath>
     </Reference>
     <Reference Include="s3pi.TxtcResource">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\s3pi.TxtcResource.dll</HintPath>
+      <HintPath>lib\s3pi\s3pi.TxtcResource.dll</HintPath>
     </Reference>
     <Reference Include="System.Custom">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\System.Custom.dll</HintPath>
-    </Reference>
-    <Reference Include="DDSPanel">
-      <HintPath>..\s3pi\s3pe_11-1216-1651\DDSPanel.dll</HintPath>
+      <HintPath>lib\s3pi\System.Custom.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
