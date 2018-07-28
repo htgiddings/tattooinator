@@ -80,13 +80,6 @@
     <Reference Include="XmodsFNV">
       <HintPath>..\XmodsFNV\bin\Release\XmodsFNV.dll</HintPath>
     </Reference>
-    <Reference Include="XmodsImageFileHandler, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\XmodsImageFileHandler\bin\Debug\XmodsImageFileHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="DDSPanel">
-      <HintPath>lib\s3pi\DDSPanel.dll</HintPath>
-    </Reference>
     <Reference Include="s3pi.CASPartResource">
       <HintPath>lib\s3pi\s3pi.CASPartResource.dll</HintPath>
     </Reference>
@@ -113,6 +106,12 @@
     </Reference>
     <Reference Include="System.Custom">
       <HintPath>lib\s3pi\System.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="XmodsImageFileHandler">
+      <HintPath>lib\xmods\XmodsImageFileHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="DDSPanel">
+      <HintPath>lib\xmods\DDSPanel.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
