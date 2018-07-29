@@ -1,5 +1,5 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tattooinator", "Tattooinator.csproj", "{CB84AEA6-70C8-4EC6-B487-4EAA5525B17C}"
 EndProject
